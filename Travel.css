@@ -185,6 +185,7 @@
           height: 309px;}
         .footer > h3{padding: 10px 80px;}
         .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 0;}
+        .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
  }
 
     
@@ -209,7 +210,7 @@
         .footer{width: 900px;}
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}
-        .box-r1{ margin: 0;} .box-r2{margin: 0;}
+        .box-r1{ margin: 0;} .box-r2{margin: 0;}  .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
       }
     
 }
@@ -235,6 +236,7 @@
         .footer{width: 900px;}
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 0;}
+        .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
       }
     
         

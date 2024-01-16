@@ -1,0 +1,33 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+  </style>
+   *{font-family: 'Mulish', sans-serif;}
+   
+   /*common style section*/
+   .btn-primary{border-radius: 8px;
+    background: #FF5400; border: none;
+    width: 174px;
+    height: 52px; color: #FFF; padding: 5px;}
+  
+    /*Banner section*/
+.banner{background-image: url(B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png); background-repeat: no-repeat; height:500px; width: 100%; margin: 130px 145px;}
+    .banner-tittle{color: #FFF; text-align: center;
+        font-size: 4rem;
+        font-weight: 800; padding-right: 260px; padding-top: 80px;}
+    .banner-text{color: #FFF; text-align: center;
+        font-size: 1rem;
+        font-weight: 400; padding-right: 250px;}
+        .banner-inputs input{width: 174px;
+        height: 52px;
+        border-radius: 8px;border: none;}
+        .banner-inputs{display: flex; gap: 8px;}
+        
+.banner-inputs{
+ padding-left: 220px;}
+ @media screen and (max-width:576px) {
+ .banner{margin: 0 auto; height: 500px; width:100%}
+  .banner-inputs{padding: 0;}
+    .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
+    .banner-text{padding-right: 0; padding-top: 0;}
+    .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
+ }

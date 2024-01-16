@@ -141,7 +141,7 @@
     .image-r2{flex-direction: column; gap: 5px; margin-top: 10px;}
     .image-r3{flex-direction: column; gap: 5px; margin-top: 10px;}
     .subscribe-section{flex-direction: column; margin: 0 auto;}
-    .Newsletter{width: 335px;
+    .Newsletter{width: auto;
       height: 353px; padding: 10px; margin: 10px;}
       .picture{width: 335px;
         height: 350px; padding: 0;}
@@ -152,7 +152,7 @@
         .discount-badge{height: 100px; width: 180px; left: 112px; bottom: 175px;}
         .travel{margin-top: 0;}
     .icons{padding: 15px 120px;}
-    .footer{width: 375px;
+    .footer{width: auto;
       height: 309px;}
     .footer > h3{padding: 10px 80px;}
     .line{width: 300px;}
@@ -206,7 +206,7 @@
     .discount-badge{height: 100px; width: 180px; left: 112px; bottom: 175px; transform: none;}
         .travel{margin-top: 0;}
         .icons{padding: 15px 350px;}
-        .footer{width: 900px;}
+        .footer{width: auto;}
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}
         .box-r1{ margin: 0;} .box-r2{margin: 10px 0px 10px 0px;}  .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
@@ -232,7 +232,7 @@
     .discount-badge{height: 100px; width: 180px; left: 112px; bottom: 175px; transform: none;}
         .travel{margin-top: 0;} 
         .icons{padding: 15px 350px;}
-        .footer{width: 900px;}
+        .footer{width: auto;}
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 0;}
         .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}

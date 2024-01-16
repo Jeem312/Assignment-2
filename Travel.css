@@ -159,9 +159,9 @@
     .line{width: 300px;}
     .box-1{width: 335px;padding-left: 4px;} .box-2{width: 335px; padding-left: 4px;}
     .box-r1{flex-direction: column; margin: 0; padding-left: 0;}
-    .box-r2{width: 335px; margin: 0; padding-left: 4px;}
+    .box-r2{width: 335px; margin: 10px 0px 10px 0px; padding-left: 4px;}
     .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
-
+ .btn{margin: 15px 80px;}
  } 
  @media screen  and (min-width:577px) and (max-width:992px) {.banner{margin: 0 auto; height: 500px; width:100%}
  .banner-inputs{padding: 0;}
@@ -184,9 +184,9 @@
         .footer{width: 375px;
           height: 309px;}
         .footer > h3{padding: 10px 80px;}
-        .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 0;}
+        .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 10px 0px 10px 0px;}
         .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
- }
+        .btn{margin: 15px 80px;}}
 
     
  
@@ -210,10 +210,10 @@
         .footer{width: 900px;}
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}
-        .box-r1{ margin: 0;} .box-r2{margin: 0;}  .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
-      }
+        .box-r1{ margin: 0;} .box-r2{margin: 10px 0px 10px 0px;}  .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
+        .btn{margin: 15px 80px;}}
     
-}
+
   
     @media screen and (min-width:1201) and (max-width:1400px) { .banner{margin: 0 auto; height: 500px; width:100%}
     .banner-inputs{padding: 0;}
@@ -237,7 +237,7 @@
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 0;}
         .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
-      }
+        .btn{margin: 15px 80px;}}
     
         
     

@@ -8,6 +8,31 @@
     background: #FF5400; border: none;
     width: 174px;
     height: 52px; color: #FFF; padding: 5px;}
+    .all-tittle{color: #131318;
+        font-size: 2.5rem;
+        font-weight: 800;}}
+    .all-text{color: rgba(19, 19, 24, 0.70);
+        font-size: 1rem;
+        font-weight: 400;}
+        .orange{
+          color: #FF5400;
+          font-size: 2rem;
+          font-weight: 800;
+         }
+/*nav section*/
+ .agency-name{color: #131318;
+  font-size: 2rem;
+  font-weight: 800; display: flex;}
+.home{color: #FF5400;
+  font-size: 1rem;
+  font-weight: 700;}
+  ul > li{list-style: none;} 
+  ul li a{text-decoration: none; color: lightslategray;}
+  nav ul {display: flex; gap: 30px;}
+  .navigation{display: flex; justify-content: space-between; 
+    align-items: center; padding: 40px 135px;}
+    #hamburger{display: none;}
+
   
     /*Banner section*/
 .banner{background-image: url(B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png); background-repeat: no-repeat; height:500px; width: 100%; margin: 130px 145px;}
@@ -21,13 +46,64 @@
         height: 52px;
         border-radius: 8px;border: none;}
         .banner-inputs{display: flex; gap: 8px;}
-        
-.banner-inputs{
- padding-left: 220px;}
+.about-tour{display: flex; gap: 50px; margin: 100px 130px;}
+.about-image{border-radius: 15px;}
+.banner-inputs{padding-left: 220px;}
+
+
+
+
+
+
+
+
  @media screen and (max-width:576px) {
  .banner{margin: 0 auto; height: 500px; width:100%}
   .banner-inputs{padding: 0;}
     .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
     .banner-text{padding-right: 0; padding-top: 0;}
     .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
+    .about-tour{margin: 0; flex-direction: column;}
+    #hamburger{display: block;}
+    .navigation{display: flex; justify-content: space-between; 
+      align-items: center; padding:0; flex-direction: column;}
+      nav > ul{gap: 10px;}
  }
+ @media screen  and (min-width:577px) and (max-width:992px) {.banner{margin: 0 auto; height: 500px; width:100%}
+ .banner-inputs{padding: 0;}
+   .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
+   .banner-text{padding-right: 0; padding-top: 0;}
+   .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
+   .about-tour{margin: 0; flex-direction: column;}
+   #hamburger{display: block;}
+   .navigation{display: flex; justify-content: space-between; 
+    align-items: center; padding:0; flex-direction: column;}
+    nav > ul{gap: 10px;}
+}
+
+    
+ 
+ @media screen and (min-width:993px) and (max-width:1200px){ .banner{margin: 0 auto; height: 500px; width:100%}
+ .banner-inputs{padding: 0;}
+   .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
+   .banner-text{padding-right: 0; padding-top: 0;}
+   .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
+   .about-tour{margin: 0; flex-direction: column;}
+   .navigation{display: flex; justify-content: space-between; 
+    align-items: center; padding:0; flex-direction: column;}
+    nav > ul{gap: 10px;}
+}
+  
+    @media screen and (min-width:1201) and (max-width:1400px) { .banner{margin: 0 auto; height: 500px; width:100%}
+    .banner-inputs{padding: 0;}
+      .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
+      .banner-text{padding-right: 0; padding-top: 0;}
+      .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
+      .about-tour{margin: 0; flex-direction: column;}
+      .navigation{display: flex; justify-content: space-between; 
+        align-items: center; padding:0; flex-direction: column;}
+        nav > ul{gap: 10px;}
+        #hamburger{display: block;}
+   } 
+        
+    

@@ -134,8 +134,7 @@
     .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
     .about-tour{margin: 0; flex-direction: column;}
     #hamburger{display: block;}
-    .navigation{display: flex; justify-content: space-between; 
-      align-items: center; padding:0; flex-direction: column;}
+    .navigation{ padding:0; flex-direction: column;}
       nav > ul{gap: 10px;}
       .destination-section > div{margin: 0;}
     .image-r1{flex-direction: column; gap: 5px; margin-top: 10px;}
@@ -190,7 +189,7 @@
 
     
  
- @media screen and (min-width:993px) and (max-width:1200px){ .banner{margin: 0 auto; height: 500px; width:100%}
+ @media screen and (min-width:993px) and (max-width:1200px){ .banner{margin: 0 auto; height: 600px; width:100%}
  .banner-inputs{padding: 0;}
    .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
    .banner-text{padding-right: 0; padding-top: 0;}
@@ -215,7 +214,7 @@
     
 
   
-    @media screen and (min-width:1201) and (max-width:1400px) { .banner{margin: 0 auto; height: 500px; width:100%}
+    @media screen and (min-width:1201) and (max-width:1400px) { .banner{margin: 0 auto; height: 600px; width:100%}
     .banner-inputs{padding: 0;}
       .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
       .banner-text{padding-right: 0; padding-top: 0;}

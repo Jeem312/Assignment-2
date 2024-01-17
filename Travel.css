@@ -126,15 +126,15 @@
  .line{background: rgba(19, 19, 24, 0.10);width: 920px;}
 
 
- @media screen and (max-width:576px) {
+ @media screen and (max-width: 600px) {
  .banner{margin: 0 auto; height: 500px; width:100%}
   .banner-inputs{padding: 0;}
     .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
     .banner-text{padding-right: 0; padding-top: 0;}
     .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
     .about-tour{margin: 0; flex-direction: column;}
-    #hamburger{display: block;}
-    .navigation{ padding:0; flex-direction: column;}
+    #hamburger{display: block;} .option{display: none;}
+    .navigation{ padding:0;}
       nav > ul{gap: 10px;}
       .destination-section > div{margin: 0;}
     .image-r1{flex-direction: column; gap: 5px; margin-top: 10px;}
@@ -162,7 +162,7 @@
     .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
  .btn{margin: 15px 80px;}
  } 
- @media screen  and (min-width:577px) and (max-width:992px) {.banner{margin: 0 auto; height: 600px; width:100%}
+ @media screen  and (min-width:601px) and (max-width:992px) {.banner{margin: 0 auto; height: 600px; width:100%}
  .banner-inputs{padding: 0;}
    .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
    .banner-text{padding-right: 0; padding-top: 0;}
@@ -194,7 +194,7 @@
    .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
    .banner-text{padding-right: 0; padding-top: 0;}
    .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
-   .about-tour{margin: 0; flex-direction: column;}
+   .about-tour{margin: 0; flex-direction: column;} 
    .navigation{display: flex; justify-content: space-between; 
     align-items: center; padding:0; flex-direction: column;}
     nav > ul{gap: 10px;}
@@ -210,7 +210,8 @@
         .footer > h3{padding: 10px 300px;}
         .line{width: 300px;}
         .box-r1{ margin: 0;} .box-r2{margin: 10px 0px 10px 0px;}  .memory-section{display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 10px;}
-        .btn{margin: 15px 80px;}}
+        .btn{margin: 15px 80px;}
+      }
     
 
   

@@ -127,12 +127,12 @@
 
 
  @media screen and (max-width: 600px) {
- .banner{margin: 0 auto; height: 500px; width:100%}
+ .banner{margin: 0 auto; height: 500px; width: 100%;}
   .banner-inputs{padding: 0;}
     .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
     .banner-text{padding-right: 0; padding-top: 0;}
     .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
-    .about-tour{margin: 0; flex-direction: column;}
+    .about-tour{margin: 0; flex-direction: column;}.about-image{width: 400px;}
     #hamburger{display: block;} .option{display: none;}
     .navigation{ padding:0;}
       nav > ul{gap: 10px;}
@@ -151,8 +151,8 @@
         height: 52px;}
         .discount-badge{height: 100px; width: 180px; left: 112px; bottom: 175px;}
         .travel{margin-top: 0;}
-    .icons{padding: 15px 120px;}
-    .footer{width: auto;
+    .icons{padding: 15px 130px;}
+    .footer{width: 100%;
       height: 309px;}
     .footer > h3{padding: 10px 80px;}
     .line{width: 300px;}
@@ -162,12 +162,12 @@
     .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
  .btn{margin: 15px 80px;}
  } 
- @media screen  and (min-width:601px) and (max-width:992px) {.banner{margin: 0 auto; height: 600px; width:100%}
+ @media screen  and (min-width:601px) and (max-width:992px) {.banner{margin: 0 auto; height: 600px;width: 100%; }
  .banner-inputs{padding: 0;}
    .banner-tittle{padding-top: 0; padding-right: 0; font-size: 3rem;}
    .banner-text{padding-right: 0; padding-top: 0;}
    .banner-inputs{padding: 0; display: flex; flex-direction: column; align-items: center;}
-   .about-tour{margin: 0; flex-direction: column;}
+   .about-tour{margin: 0; flex-direction: column;}.about-image{width: 400px;}
    #hamburger{display: block;}
    .navigation{display: flex; justify-content: space-between; 
     align-items: center; padding:0; }
@@ -179,10 +179,10 @@
     .subscribe-section{flex-direction: column; margin: 0 auto;}
     .discount-badge{height: 100px; width: 180px; left: 112px; bottom: 175px; transform: none;}
         .travel{margin-top: 0;}
-        .icons{padding: 15px 120px;}
-        .footer{width: 375px;
+        .icons{padding: 15px 270px;}
+        .footer{width: 100%;
           height: 309px;}
-        .footer > h3{padding: 10px 80px;}
+        .footer > h3{padding: 10px 200px;}
         .line{width: 300px;}  .box-r1{ margin: 0;} .box-r2{margin: 10px 0px 10px 0px;}
         .memory-section{display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin: 10px;}
         .btn{margin: 15px 80px;}}
